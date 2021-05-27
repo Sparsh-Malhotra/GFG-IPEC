@@ -49,6 +49,7 @@ body {
     rgba(252, 82, 150, 1) 100%
   );
   font-family: 'Poppins', sans-serif;
+  animation: opening 0.8s ease-in-out;
 }
 
 /* Navigation */
@@ -220,6 +221,16 @@ nav {
 .buttons,
 .accordian {
   display: none;
+}
+
+/* Keyframes */
+@keyframes opening {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* Media Queries */

@@ -6,6 +6,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -45,7 +46,7 @@ h4 {
 body {
   background-color: var(--bg-color);
   font-family: 'Poppins', sans-serif;
-  animation: opening 1s ease-in-out;
+  animation: opening 0.8s ease-in-out;
 }
 
 header {
@@ -374,19 +375,6 @@ li {
 
 .mail {
   flex: 1;
-}
-
-form input[type='submit'] {
-  display: none;
-}
-
-form i {
-  color: black;
-  position: relative;
-  right: 9%;
-  border-left: 1px solid black;
-  padding-left: 0.5rem;
-  cursor: pointer;
 }
 
 /* Keyframes */

@@ -10,6 +10,11 @@
       src="https://kit.fontawesome.com/34c410e76d.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://s.pageclip.co/v1/pageclip.css"
+      media="screen"
+    />
   </head>
   <body>
     <header class="header-div" id="home">
@@ -367,12 +372,15 @@
       </div>
       <div class="mail">
         <h3>Subscribe to get updates about our upcoming events</h3>
-        <form action="">
+        <form
+          action="https://send.pageclip.co/ZCEElr6LOPnnpqG0QzAJcGmgb15FRyT3/test"
+          class="pageclip-form"
+          method="post"
+        >
           <input type="email" name="email" />
-          <label>
-            <input type="submit" />
-            <i class="fas fa-envelope"></i>
-          </label>
+          <button type="submit" class="pageclip-form__submit">
+            <span><i class="fas fa-envelope"></i></span>
+          </button>
         </form>
       </div>
     </footer>
@@ -383,5 +391,6 @@
       referrerpolicy="no-referrer"
     ></script>
     <script src="script.js"></script>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
   </body>
 </html>
