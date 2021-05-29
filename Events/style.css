@@ -42,6 +42,10 @@ h4 {
   font-size: calc(0.3rem + 1vw);
 }
 
+.bold {
+  font-weight: 1000;
+}
+
 body {
   background: linear-gradient(
     90deg,
@@ -155,6 +159,28 @@ nav {
   margin: 2rem;
 }
 
+.poster img {
+  display: block;
+  max-width: 35rem;
+  max-height: 35rem;
+  width: auto;
+  height: auto;
+}
+
+.info {
+  width: 100%;
+}
+
+.info p {
+  padding: 0rem 2rem 0rem 3rem;
+  line-height: 1.8;
+  letter-spacing: 1.8px;
+}
+
+.info a {
+  color: #0066cc;
+}
+
 .buttons button {
   background-color: var(--green);
   color: white;
@@ -217,9 +243,10 @@ nav {
 
 /* Temporary Styles */
 
-.title,
+/* .title,
 .poster,
 .buttons,
+*/
 .accordian {
   display: none;
 }
@@ -298,5 +325,14 @@ nav {
   .heading h2 {
     padding: 0rem 1rem;
     font-size: 2.5rem;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .info p {
+    padding: 0rem 1rem 0rem 1.5rem;
+    letter-spacing: 1.4;
   }
 }
