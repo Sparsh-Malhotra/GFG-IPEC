@@ -243,12 +243,15 @@ nav {
 
 /* Temporary Styles */
 
-/* .title,
+.title,
 .poster,
 .buttons,
-*/
 .accordian {
   display: none;
+}
+
+.info p {
+  text-align: center;
 }
 
 /* Keyframes */
