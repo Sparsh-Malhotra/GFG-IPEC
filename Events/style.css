@@ -335,4 +335,8 @@ nav {
     padding: 0rem 1rem 0rem 1.5rem;
     letter-spacing: 1.4;
   }
+
+  .info a {
+    word-wrap: break-word;
+  }
 }
